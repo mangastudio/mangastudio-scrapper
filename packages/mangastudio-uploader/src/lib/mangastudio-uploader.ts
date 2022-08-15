@@ -15,6 +15,7 @@ async function uploadChapter(manga: Manga, chapter: Chapter) {
   //   date: chapter.date,
   //   images: chapter.images,
   // });
+  console.log('Uploading chapter', chapter.name);
 }
 
 export { uploadChapter, Manga, Chapter };

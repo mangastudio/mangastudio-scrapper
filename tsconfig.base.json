@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@mangastudio-scrapper/mangastudio-uploader": [
+        "packages/mangastudio-uploader/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
